@@ -1,14 +1,18 @@
 const inputYear = document.querySelector("#Yearly");
 const inputMonth = document.querySelector("#Monthly");
+const prices = Array.from(document.querySelectorAll(".card-price"));
 
-const yearContainer = document.querySelector(".cards-container.year");
-const monthContainer = document.querySelector(".cards-container.month");
-
-inputMonth.addEventListener("click", () => {
-  monthContainer.classList.remove("hide");
-  yearContainer.classList.add("hide");
-});
 inputYear.addEventListener("click", () => {
-  yearContainer.classList.remove("hide");
-  monthContainer.classList.add(`hide`);
+  let counter = 0;
+  const pricesYear = ["$12", "$36", "$56"];
+  prices.forEach((price) => {
+    price.textContent = pricesYear[counter++];
+  });
+});
+inputMonth.addEventListener("click", () => {
+  let counter = 0;
+  const pricesMont = ["$19", "$54", "$89"];
+  prices.forEach((price) => {
+    price.textContent = pricesMont[counter++];
+  });
 });
