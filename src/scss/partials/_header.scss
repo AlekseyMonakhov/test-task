@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 94px;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 9px 24px 9px 24px;
+  &-btn {
+    display: none;
+  }
+}
+@media (min-width: $screenWidth) {
+  .header {
+    padding: 28px 50px;
+    &-btn {
+      display: block;
+      border: none;
+      background: $pink;
+      border-radius: 25px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      text-align: center;
+      color: #ffffff;
+      padding: 10px 30px;
+    }
+  }
+}
