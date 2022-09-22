@@ -152,6 +152,11 @@ button {
     padding: 0;
   }
 }
+@media (max-width: 325px) {
+  .plans-title > h2 {
+    letter-spacing: -1px;
+  }
+}
 .cards-container {
   display: flex;
   flex-flow: column nowrap;
