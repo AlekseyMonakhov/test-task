@@ -21,7 +21,7 @@
         font-weight: 500;
         font-size: 17px;
         line-height: 26px;
-        color: #848199;
+        color: $gray;
       }
     }
     &-name {
@@ -38,7 +38,7 @@
       font-weight: 500;
       font-size: 15px;
       line-height: 22px;
-      color: #848199;
+      color: $gray;
     }
     &-items {
       display: flex;
@@ -51,7 +51,7 @@
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
-        color: #848199;
+        color: $gray;
         &::before {
           content: url(../images/check-circle-1.svg);
         }
@@ -68,7 +68,7 @@
       font-size: 15px;
       line-height: 22px;
       text-align: center;
-      color: #ffffff;
+      color: $clearWhite;
     }
   }
   .card.special {
@@ -82,7 +82,7 @@
       font-weight: 700;
       font-size: 36px;
       line-height: 46px;
-      color: #ffffff;
+      color: $clearWhite;
       &::after {
         content: "/month";
         font-family: "Poppins";
@@ -90,7 +90,7 @@
         font-weight: 500;
         font-size: 17px;
         line-height: 26px;
-        color: #ffffff;
+        color: $clearWhite;
       }
     }
     .card-name {
@@ -98,14 +98,14 @@
       font-weight: 500;
       font-size: 28px;
       line-height: 42px;
-      color: #ffffff;
+      color: $clearWhite;
     }
     .card-desc {
       font-style: normal;
       font-weight: 500;
       font-size: 15px;
       line-height: 22px;
-      color: #ffffff;
+      color: $clearWhite;
     }
     .card-items {
       .card-item {
@@ -113,14 +113,14 @@
         font-weight: 500;
         font-size: 15px;
         line-height: 22px;
-        color: #ffffff;
+        color: $clearWhite;
         &::before {
           content: url(../images/check-circle2.svg);
         }
       }
     }
     .card-btn {
-      background: #bb6bd9;
+      background: $pink;
       border-radius: 24px;
     }
     .card-details {
@@ -132,7 +132,7 @@
       line-height: 15px;
       text-align: center;
       letter-spacing: 0.833333px;
-      color: #bb6bd9;
+      color: $pink;
       padding: 5px 17px;
       background: #403879;
       border-radius: 13.5px;
