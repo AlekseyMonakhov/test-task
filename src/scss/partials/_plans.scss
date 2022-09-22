@@ -29,7 +29,6 @@
     border-radius: 22px;
     position: relative;
     width: fit-content;
-    overflow: hidden;
     & > input {
       display: none;
     }
@@ -46,6 +45,7 @@
       color: black;
       text-align: center;
       text-transform: uppercase;
+      cursor: pointer;
     }
     & input[type="radio"]:checked + label {
       box-shadow: 0px 6px 12px rgba(82, 67, 194, 0.16);

@@ -88,7 +88,6 @@ body {
   border-radius: 22px;
   position: relative;
   width: fit-content;
-  overflow: hidden;
 }
 .plans-title > .plans-tumbler-container > input {
   display: none;
@@ -106,6 +105,7 @@ body {
   color: black;
   text-align: center;
   text-transform: uppercase;
+  cursor: pointer;
 }
 .plans-title > .plans-tumbler-container input[type=radio]:checked + label {
   box-shadow: 0px 6px 12px rgba(82, 67, 194, 0.16);
