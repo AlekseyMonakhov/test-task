@@ -93,6 +93,9 @@ body {
   display: none;
 }
 .plans-title > .plans-tumbler-container > label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   z-index: 2;
   width: 50%;
@@ -103,7 +106,6 @@ body {
   padding: 13px 24px;
   transition: color 0.5s ease;
   color: black;
-  text-align: center;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -124,7 +126,6 @@ body {
 .plans-title > .plans-tumbler-container .glider {
   position: absolute;
   left: 0;
-  display: flex;
   transition: all 0.5s ease;
   z-index: 1;
   width: 50%;
