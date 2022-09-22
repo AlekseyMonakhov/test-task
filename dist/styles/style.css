@@ -25,6 +25,10 @@ button {
   }
 }
 
+button:hover {
+  background-color: #a847cc !important;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -221,6 +225,7 @@ button {
 .cards-container .card-btn {
   padding: 11px 0;
   width: 100%;
+  border: none;
   background: #231d4f;
   mix-blend-mode: normal;
   border-radius: 24px;
