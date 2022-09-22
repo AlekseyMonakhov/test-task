@@ -23,7 +23,6 @@ body {
   justify-content: center;
   @media (min-width: $screenWidth) {
     flex-flow: column nowrap;
-    align-items: center;
     padding-top: 40px;
   }
 }

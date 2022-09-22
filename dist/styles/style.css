@@ -19,7 +19,6 @@ body {
 @media (min-width: 1366px) {
   .main {
     flex-flow: column nowrap;
-    align-items: center;
     padding-top: 40px;
   }
 }
