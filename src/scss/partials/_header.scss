@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 94px;
-  max-width: 1450px;
+  max-width: $screenWidth;
   margin: 0 auto;
   padding: 9px 24px 9px 24px;
   &-btn {
@@ -24,7 +24,7 @@
       font-size: 14px;
       line-height: 18px;
       text-align: center;
-      color: #ffffff;
+      color: $clearWhite;
       padding: 10px 30px;
     }
   }
