@@ -1,5 +1,4 @@
 * {
-  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -10,6 +9,11 @@ body {
   max-width: 1366px;
   margin: 0 auto;
   min-height: 100vh;
+}
+
+body,
+button {
+  font-family: "Poppins", sans-serif;
 }
 
 .main {

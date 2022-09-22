@@ -7,7 +7,6 @@ $gray: #848199;
 $screenWidth: 1366px;
 
 * {
-  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 body {
@@ -17,6 +16,10 @@ body {
   max-width: $screenWidth;
   margin: 0 auto;
   min-height: 100vh;
+}
+body,
+button {
+  font-family: "Poppins", sans-serif;
 }
 .main {
   padding: 16px;
