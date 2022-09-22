@@ -27,12 +27,16 @@
     align-items: center;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 22px;
+    position: relative;
     width: fit-content;
     overflow: hidden;
     & > input {
       display: none;
     }
     & > label {
+      position: relative;
+      z-index: 2;
+      width: 50%;
       font-style: normal;
       font-weight: 500;
       font-size: 12px;
@@ -47,12 +51,22 @@
       border-radius: 22px;
       color: white;
     }
-    @media (prefers-reduced-motion: no-preference) {
-      & input[type="radio"]:checked + label {
-        animation-name: add;
-        animation-duration: 0.5s;
-        animation-fill-mode: forwards;
-      }
+    input[id="Monthly"]:checked ~ .glider {
+      transform: translateX(0);
+    }
+    input[id="Yearly"]:checked ~ .glider {
+      transform: translateX(100%);
+    }
+    .glider {
+      position: absolute;
+      left: 0;
+      display: flex;
+      transition: all .5s ease;
+      z-index: 1;
+      width: 50%;
+      border-radius: 99px;
+      height: 100%;
+      background-color: #bb6bd9;
     }
   }
 }
@@ -72,14 +86,5 @@
       flex-basis: 65%;
       padding: 0;
     }
-  }
-}
-
-@keyframes add {
-  from {
-    background: none;
-  }
-  to {
-    background: #bb6bd9;
   }
 }
