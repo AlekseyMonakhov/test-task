@@ -25,10 +25,6 @@ button {
   }
 }
 
-button:hover {
-  background-color: #a847cc !important;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -235,6 +231,9 @@ button:hover {
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+}
+.cards-container .card-btn:hover {
+  background-color: #a847cc !important;
 }
 .cards-container .card.special {
   padding: 20px;
