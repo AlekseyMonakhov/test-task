@@ -1,9 +1,9 @@
 const inputYear = document.querySelector(".plans-tumbler-container");
 const prices = Array.from(document.querySelectorAll(".card-price"));
 const animation = {
-  duration: 250,
+  duration: 500,
   fill: "forwards",
-  easing: "ease",
+  easing: "linear",
 };
 inputYear.addEventListener("click", (event) => {
   let counter = 0;
